@@ -27,6 +27,8 @@ export default function AddExpenseScreen({ navigation }) {
     { label: 'Transporte', value: 'transporte' },
     { label: 'Lazer', value: 'lazer' },
     { label: 'Estudos', value: 'estudos' },
+    { label: 'Contas Domésticas', value: 'contas domesticas' },
+    { label: 'Saúde', value: 'saude' }
   ];
 
   const formatarValor = (texto) => {

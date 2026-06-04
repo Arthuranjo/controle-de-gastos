@@ -9,9 +9,9 @@ export default function ExpenseItem({ item, onDelete }) {
         <Text style={styles.descricao}>{item.descricao}</Text>
         
         {/* Categoria e Data */}
-        <Text style={styles.subtext}>
-          {item.categoria} • {item.data}
-        </Text>
+        <Text style={styles.subtext}>•  Categoria:  {item.categoria}</Text>
+        <Text style={styles.subtext}>•  Data: {item.data}</Text>
+
       </View>
 
       <View style={styles.rightContainer}>
