@@ -12,7 +12,7 @@ export default function Routes() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: '#6200ee' }, // Personalize a cor da sua Toolbar
+          headerStyle: { backgroundColor: '#6200ee' }, 
           headerTintColor: '#fff',
           headerTitleStyle: { fontWeight: 'bold' },
         }}
